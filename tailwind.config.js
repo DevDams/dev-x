@@ -1,12 +1,22 @@
 module.exports = {
-  darkMode: 'class',
   future: {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: [
+    require('tailwindcss-dark-mode')()
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        darkMode: {
+          default: '#262626'
+        },
+        lightMode: {
+          default: '#f9f9f9'
+        }
+      }
+    },
   },
   variants: {},
   plugins: [],
