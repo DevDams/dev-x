@@ -13,7 +13,7 @@ module.exports = {
           default: '#262626'
         },
         lightMode: {
-          default: '#f9f9f9'
+          default: '#f2a490'
         }
       }
     },
