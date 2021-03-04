@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="corps bg-blue-400">
-      <div class="container relative m-auto flex items-center justify-center h-full z-50">
-        <DarkModeBtn class="absolute top-0" />
-        <h1 class="text uppercase text-3xl font-bold">
+      <div class="container relative m-auto flex items-center justify-center h-full z-40">
+        <h1 class="w-1/2 text uppercase text-3xl font-bold">
           Hi ! I am Aimé, a javascript and frontend web developer <br>from Ivory Coast
         </h1>
+        <img class="w-2/5 shadow-2xl" src="~/assets/svg/work_man.svg" alt="worker man illustration">
       </div>
       <div class="wave_background z-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150"><path fill="#63B3ED" fill-opacity="1" d="M0,64L80,80C160,96,320,128,480,128C640,128,800,96,960,80C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
@@ -36,7 +36,7 @@ body {
 }
 
 .corps {
-  height: 750px;
+  height: 850px;
   position: relative;
   background-color: #067eed;
 }
