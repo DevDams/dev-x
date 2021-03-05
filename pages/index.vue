@@ -36,16 +36,23 @@
           <div class="left_box w-1/3">
             <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
           </div>
-          <div class="right_box w-2/3 flex">
-            <div class="div1 w-1/2">
-              <h1>hello1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime sed culpa dolor illo omnis neque nesciunt aliquid, dolore saepe doloremque earum, eveniet esse delectus eaque, ad voluptate corporis officia.</p>
-            </div>
-            <div class="div2 w-1/2 bg-mypink">
-              <div class="mt-52">
-                <h1>hello2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid enim voluptatum obcaecati hic illo saepe, officiis veniam voluptatem consequatur totam minima eaque, nisi voluptas facilis at cum, dolor delectus! Doloribus.</p>
+          <div class="right_box w-2/3 flex flex-col">
+            <div class="bock_text flex mt-32">
+              <div class="div1 relative w-1/2">
+                <div class="px-8">
+                  <h1 class="font-bold text-4xl uppercase tracking-widest">Why i code.</h1>
+                  <p class="font-thin mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maxime sed culpa dolor illo omnis neque nesciunt aliquid, dolore saepe doloremque earum, eveniet esse delectus eaque, ad voluptate corporis officia.</p>
+                </div>
               </div>
+              <div class="div2 w-1/2 self-center">
+                <div class="mt-32 px-8">
+                  <h1 class="font-bold text-4xl text-mygreen uppercase tracking-widest">My story_</h1>
+                  <p class="font-thin mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid enim voluptatum obcaecati hic illo saepe, officiis veniam voluptatem consequatur totam minima eaque, nisi voluptas facilis at cum, dolor delectus! Doloribus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="btn pl-20 mt-32">
+              <a class="font-thin text-xl text-white bg-mypink py-3 px-4 rounded-2xl" href="#">Know more</a>
             </div>
           </div>
         </div>

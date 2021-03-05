@@ -5,7 +5,7 @@
         <a href="#"><h1 class="cc text-3xl font-thin text-pink-600">aimé.</h1></a>
       </div>
       <div class="btn sm:hidden">
-        <button class="hamburger hamburger--collapse" type="button" :class="{ 'is-active': isActive }" @click="burger">
+        <button class="hamburger hamburger--arrow-r" type="button" :class="{ 'is-active': isActive }" @click="burger">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>
           </span>
