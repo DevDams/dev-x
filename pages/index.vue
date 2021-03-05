@@ -27,13 +27,13 @@
       </div>
     </div>
     <!-- ===== About section ===== -->
-    <div class="h-screen about relative -mt-44">
+    <div class="about relative mt-32">
       <div class="container mx-auto">
         <h1 class="text-6xl font-hairline text-right mr-32 flex justify-end">
           <span>About me.</span> <span class="bar absolute bg-mygreen w-40 h-1 rounded-xl mt-20"></span>
         </h1>
         <div class="flex">
-          <div class="left_box w-1/3">
+          <div class="left_box w-1/3 -mt-32">
             <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
           </div>
           <div class="right_box w-2/3 flex flex-col">
@@ -52,12 +52,33 @@
               </div>
             </div>
             <div class="btn pl-20 mt-32">
-              <a class="font-thin text-xl text-white bg-mypink py-3 px-4 rounded-2xl" href="#">Know more</a>
+              <a href="#" class="flex w-48 items-center justify-center text-xl text-white py-3 px-5 rounded-3xl aa">
+                Know more
+                <span>
+                  <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- ===== Work section ===== -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#6aab9c" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,234.7C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+    <div class="work bg-mygreen relative">
+      <div class="container mx-auto relative">
+        <h1 class="relative text-6xl text-center text-white mx-auto">
+          My Work <span class="bar absolute bg-myorange w-32 h-1 rounded-xl mt-24 -ml-48"></span>
+        </h1>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#6aab9c" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,234.7C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+    </svg>
   </div>
 </template>
 
@@ -94,5 +115,13 @@ export default {}
 
 .aa {
   background-color: #e06c78;
+}
+
+.about {
+  height: 620px;
+}
+
+.work {
+  height: 800px;
 }
 </style>
