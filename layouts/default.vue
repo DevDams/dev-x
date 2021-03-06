@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Menu class="sticky w-screen top-0 z-40" />
+    <Menu class="fixed w-screen top-0 z-40" />
     <Nuxt />
-    <DarkModeBtn class="sticky left-0 bottom-0 z-50" />
+    <DarkModeBtn class="fixed left-0 bottom-0 z-50" />
   </div>
 </template>
 

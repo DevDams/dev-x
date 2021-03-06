@@ -1,6 +1,6 @@
 <template>
   <div class="relative container mx-auto">
-    <div class="p-6">
+    <div class="p-6 pl-24">
       <button class="btn text-black rounded-full shadow-lg outline-none" @click="changeMode">
         <span class="sun" :class="{ displaySun : !darkModeActive }">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
