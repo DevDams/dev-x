@@ -59,7 +59,7 @@
                   <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </span>
-              </a>
+              </a> 
             </div>
           </div>
         </div>
