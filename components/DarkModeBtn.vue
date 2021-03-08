@@ -1,9 +1,16 @@
 <template>
-  <div class="relative container mx-auto">
-    <div class="p-6 pl-24">
+  <div class="container mx-auto fixed">
+    <div class="pl-24">
       <button class="btn text-black rounded-full shadow-lg outline-none" @click="changeMode">
         <span class="sun" :class="{ displaySun : !darkModeActive }">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+          <svg
+            class="absolute"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 512 512"
+          >
             <g>
               <g>
                 <path d="m256,432.3c-11.3,0-20.4,9.1-20.4,20.4v27.9c0,11.3 9.1,20.4 20.4,20.4s20.4-9.1 20.4-20.4v-27.9c0-11.3-9.1-20.4-20.4-20.4z"/>

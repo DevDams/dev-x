@@ -97,7 +97,7 @@
       </div>
     </div>
     <!-- ===== Contact section ===== -->
-    <div class="contact bg-myblack">
+    <div class="contact -mb-40 bg-myblack">
       <div class="container h-screen mx-auto">
         <div>
           <h1 class="text-6xl font-bold text-white">Feel free to send me a message</h1>

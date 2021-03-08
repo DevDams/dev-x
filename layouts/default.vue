@@ -2,7 +2,7 @@
   <div>
     <Menu class="fixed w-screen top-0 z-40" />
     <Nuxt />
-    <DarkModeBtn class="fixed left-0 bottom-0 z-50" />
+    <DarkModeBtn class="fixed z-50 darkbtn" />
   </div>
 </template>
 
@@ -28,5 +28,9 @@ body {
 .dark-mode body {
   background-color: #384e78;
   color: #f2f2f2;
+}
+
+.darkbtn {
+  bottom: 25px;
 }
 </style>
