@@ -14,11 +14,11 @@
       <div class="menu_link xs:h-screen xs:fixed xs:bg-mypink xs:right-0 xs:w-2/5 menu_items" :class="{ 'active': isHide }">
         <div class="xs:h-screen xs:flex xs:items-center xs:justify-center">
           <ul class="text-white">
-            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><a href="#">Hi !</a></li>
-            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><a href="#">About</a></li>
-            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><a href="#">Works</a></li>
-            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><a href="#">Blog</a></li>
-            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><a href="#">Contacts</a></li>
+            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/">Hi !</NuxtLink></li>
+            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/about">About</NuxtLink></li>
+            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/works">Works</NuxtLink></li>
+            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/">Blog</NuxtLink></li>
+            <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/contacts">Contacts</NuxtLink></li>
           </ul>
         </div>
       </div>
