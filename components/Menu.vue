@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 .menu {
-  background-color: #e06c78;
+  background-color: #0d0d0d;
 }
 
 .cc {
