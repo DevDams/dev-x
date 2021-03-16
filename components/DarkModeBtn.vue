@@ -112,7 +112,7 @@ export default {
     changeMode () {
       this.darkModeActive = !this.darkModeActive
       this.$colorMode.preference =
-      this.$colorMode.preference === 'https://www.svgrepo.com/show/6938/sun.svg' ? 'dark' : 'https://www.svgrepo.com/show/6938/sun.svg'
+      this.$colorMode.preference === 'light' ? 'dark' : 'light'
     }
   }
 }

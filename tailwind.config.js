@@ -34,7 +34,7 @@ module.exports = {
       }
     },
     screens: {
-      'xs':  {'max' : '639px'},
+      'xs':  {'max' : '639px'}, // <<=== my custom breakpoint
       // => @media (max-width: 640px) { ... }
 
       'sm': '640px',
