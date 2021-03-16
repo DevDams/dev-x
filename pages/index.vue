@@ -135,7 +135,7 @@
                       <span class="font-semibold">Github</span> <img class="inline" src="~/assets/icon/github-alt.svg" alt=""> : <a href="https://github.com/DevDams">DevDams</a>
                     </li>
                     <li class="py-2">
-                      <span class="font-semibold">Behance</span> <img class="inline" src="~/assets/icon/behance.svg" alt="https://www.behance.net/dams9ix"> : <a href="">@dam9ix</a>
+                      <span class="font-semibold">Behance</span> <img class="inline" src="~/assets/icon/behanceù.svg" alt="https://www.behance.net/dams9ix"> : <a href="">@dam9ix</a>
                     </li>
                     <li class="py-2">
                       <span class="font-semibold">Twitter</span> <img class="inline" src="~/assets/icon/twitter-alt.svg" alt=""> : <a href="https://twitter.com/dams9ix">@dams9ix</a>
