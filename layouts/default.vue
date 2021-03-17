@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: #fff;
-  color: #0e3854;
+  color: #000;
   transition: .3s all ease-in-out;
 }
 

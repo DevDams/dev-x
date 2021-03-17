@@ -23,10 +23,19 @@ module.exports = {
           default: '#5874dc',
         },
         mygreen: {
-          default: '#6aab9c',
+          default: '#238c89',
+        },
+        myfadegreen: {
+          default: '#d4f1ef',
+        },
+        myviolet: {
+          default: '#7a6cce',
+        },
+        mywhite: {
+          default: '#e7e7e7',
         },
         mypink: {
-          default: '#e06c78',
+          default: '#ff74aa',
         },
         myorange: {
           default: '#fa9284',
