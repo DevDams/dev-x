@@ -7,7 +7,7 @@
             <h1 data-scroll class="xs:text-3xl sm:text-4xl md:text-3xl lg:text-4xl text uppercase font-bold" data-scroll-speed="1">
               Hi ! I am Aimé, a javascript and a frontend web developer from Ivory Coast
             </h1>
-            <p data-scroll class="text-white mt-4 mb-10 font-hairline" data-scroll-speed="2">
+            <p data-scroll class="text-white mt-4 mb-10 font-light" data-scroll-speed="2">
               Create awesome interface and web application for customers if one of the thinks
               I like the most in my life. So if you have any idea of project, don't wait too long...
             </p>
@@ -30,18 +30,18 @@
       <div data-scroll-section class="about bg-mywhite">
         <div class="container mx-auto flex sm:flex-col sm:items-center md:flex-row pt-8 z-20 relative">
           <div class="relative image_profil flex items-center mx-12 w-1/2">
-            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.jpg" alt="picture of person" class="shadow-md md:mt-56 lg:mt-48 xl:mt-32 2xl:mt-16">
+            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.png" alt="picture of person" class="md:mt-56 lg:mt-48 xl:mt-32 2xl:mt-16 max-w-sm rounded-xl shadow-md">
           </div>
           <div class="relative about_text w-2/3">
             <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="relative font-bold tracking-wide uppercase text-right xl:mr-0 2xl:mr-32 text-6xl mt-12">about.</h1>
             <div class="about_text_box flex md:mt-32 md:flex-col lg:flex-row lg:items-center lg:mt-10">
               <div class="about_text_1 lg:-mt-24">
                 <h3 data-scroll data-scroll-speed="3" class="text-4xl text-mygreen uppercase font-semibold">Why i code</h3>
-                <p data-scroll data-scroll-speed="2" class="font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est! Ea qui voluptatum vero necessitatibus sunt labore, ipsam voluptates non? Illo iusto quis tempore eveniet. Vero itaque fugiat ipsam amet.</p>
+                <p data-scroll data-scroll-speed="2" class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est! Ea qui voluptatum vero necessitatibus sunt labore, ipsam voluptates non? Illo iusto quis tempore eveniet. Vero itaque fugiat ipsam amet.</p>
               </div>
               <div class="about_text_2 md:mt-16 lg:mt-64">
                 <h3 data-scroll data-scroll-speed="3" class="text-4xl text-black uppercase font-semibold">My story</h3>
-                <p data-scroll data-scroll-speed="2" class="font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, commodi! Voluptates tempore praesentium quod id illo incidunt iure, temporibus maiores nulla quas perferendis provident sapiente sit explicabo, magni possimus nostrum?</p>
+                <p data-scroll data-scroll-speed="2" class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, commodi! Voluptates tempore praesentium quod id illo incidunt iure, temporibus maiores nulla quas perferendis provident sapiente sit explicabo, magni possimus nostrum?</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@
       <!-- === PROJECT SECTION === -->
       <div data-scroll-section class="project bg-mygreen -mt-2">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="text-6xl text-mywhite pt-8 uppercase font-bold">_What i have done</h1>
+          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide text-6xl text-mywhite pt-8 uppercase font-bold">What i have done</h1>
         </div>
       </div>
     </div>
