@@ -28,19 +28,19 @@
       </div>
       <!-- === ABOUT SECTION === -->
       <div data-scroll-section class="about bg-mywhite">
-        <div class="container mx-auto flex sm:flex-col sm:items-center md:flex-row pt-8 z-20 relative">
-          <div class="relative image_profil flex items-center mx-12 w-1/2">
-            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.png" alt="picture of person" class="border-2 border-black sm:mt-12 sm:-ml-10 md:mt-56 md:-ml-12 lg:ml-0 lg:mt-48 xl:mt-32 2xl:mt-16 max-w-sm rounded-xl shadow-md">
+        <div class="container mx-auto flex xs:flex-col sm:flex-col sm:items-center md:flex-row pt-8 z-20 relative">
+          <div class="relative image_profil flex items-center mx-12 xs:mx-auto w-1/2">
+            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.png" alt="picture of person" class="border-2 border-black xs:w-full xs:mt-16 sm:mt-12 sm:-ml-10 md:mt-32 md:-ml-24 lg:-ml-8 lg:mt-32 xl:mt-32 2xl:mt-16 2xl:ml-16 max-w-sm rounded-xl shadow-md">
           </div>
           <div class="relative about_text md:w-2/3">
-            <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="relative font-bold tracking-wide uppercase text-right sm:mt-20 xl:mr-0 2xl:mr-32 text-6xl mt-12">about.</h1>
-            <div class="about_text_box flex sm:items-between sm:mt-16 md:mt-32 md:flex-col lg:flex-row lg:items-center lg:mt-10">
-              <div class="about_text_1 lg:-mt-24">
-                <h3 data-scroll data-scroll-speed="3" class="text-4xl text-mygreen uppercase font-semibold">Why i code</h3>
+            <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="relative font-bold tracking-wide uppercase text-right xs:mt-16 sm:mt-10 md:mt-20 xl:mr-0 xl:-mt-10 2xl:mr-32 2xl:-mt-12 text-6xl">about.</h1>
+            <div class="about_text_box flex xs:flex-col xs:px-8 xs:mt-10 sm:items-between sm:px-2 sm:mt-16 md:mt-32 md:flex-col lg:mr-0 lg:flex-row lg:items-center lg:mt-10 xl:-ml-32 2xl:mt-4">
+              <div class="about_text_1 xs:mt-8 sm:mt-0 sm:px-2 md:px-0 lg:px-0 lg:-mt-32 lg:-ml-8 xl:ml-0">
+                <h3 data-scroll data-scroll-speed="2" class="text-4xl text-mygreen uppercase font-semibold">Why i code</h3>
                 <p data-scroll data-scroll-speed="2" class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est! Ea qui voluptatum vero necessitatibus sunt labore, ipsam voluptates non? Illo iusto quis tempore eveniet. Vero itaque fugiat ipsam amet.</p>
               </div>
-              <div class="about_text_2 md:mt-16 lg:mt-64">
-                <h3 data-scroll data-scroll-speed="3" class="text-4xl text-black uppercase font-semibold">My story</h3>
+              <div class="about_text_2 xs:mt-12 sm:px-2 md:mt-16 md:px-2 lg:px-0 lg:mt-64 lg:ml-10 xl:ml-0">
+                <h3 data-scroll data-scroll-speed="2" class="text-4xl text-black uppercase font-semibold">My story</h3>
                 <p data-scroll data-scroll-speed="2" class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, commodi! Voluptates tempore praesentium quod id illo incidunt iure, temporibus maiores nulla quas perferendis provident sapiente sit explicabo, magni possimus nostrum?</p>
               </div>
             </div>
@@ -125,6 +125,12 @@ export default {
 @media (max-width: 768px) {
   .about {
     height: 1300px;
+  }
+}
+
+@media (max-width: 460px) {
+  .about {
+    height: 1250px;
   }
 }
 
