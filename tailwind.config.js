@@ -17,7 +17,7 @@ module.exports = {
         },
         // => My custom color
         myblack: {
-          default: '0F0F0F',
+          default: '#0F0F0F',
         },
         myblue: {
           default: '#5874dc',

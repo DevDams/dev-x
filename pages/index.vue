@@ -30,11 +30,11 @@
       <div data-scroll-section class="about bg-mywhite">
         <div class="container mx-auto flex sm:flex-col sm:items-center md:flex-row pt-8 z-20 relative">
           <div class="relative image_profil flex items-center mx-12 w-1/2">
-            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.png" alt="picture of person" class="md:mt-56 lg:mt-48 xl:mt-32 2xl:mt-16 max-w-sm rounded-xl shadow-md">
+            <img data-scroll data-scroll-speed="1" src="~/assets/images/profil.png" alt="picture of person" class="border-2 border-black sm:mt-12 sm:-ml-10 md:mt-56 md:-ml-12 lg:ml-0 lg:mt-48 xl:mt-32 2xl:mt-16 max-w-sm rounded-xl shadow-md">
           </div>
-          <div class="relative about_text w-2/3">
-            <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="relative font-bold tracking-wide uppercase text-right xl:mr-0 2xl:mr-32 text-6xl mt-12">about.</h1>
-            <div class="about_text_box flex md:mt-32 md:flex-col lg:flex-row lg:items-center lg:mt-10">
+          <div class="relative about_text md:w-2/3">
+            <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="relative font-bold tracking-wide uppercase text-right sm:mt-20 xl:mr-0 2xl:mr-32 text-6xl mt-12">about.</h1>
+            <div class="about_text_box flex sm:items-between sm:mt-16 md:mt-32 md:flex-col lg:flex-row lg:items-center lg:mt-10">
               <div class="about_text_1 lg:-mt-24">
                 <h3 data-scroll data-scroll-speed="3" class="text-4xl text-mygreen uppercase font-semibold">Why i code</h3>
                 <p data-scroll data-scroll-speed="2" class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, est! Ea qui voluptatum vero necessitatibus sunt labore, ipsam voluptates non? Illo iusto quis tempore eveniet. Vero itaque fugiat ipsam amet.</p>
@@ -110,7 +110,7 @@ export default {
 }
 
 .about {
-  height: 980px;
+  height: 1000px;
   position: relative;
 }
 
@@ -120,6 +120,12 @@ export default {
   background-color: #e7e7e7;
   transition: .3s all ease-in-out;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .about {
+    height: 1300px;
+  }
 }
 
 .project {

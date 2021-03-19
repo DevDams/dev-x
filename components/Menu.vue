@@ -2,7 +2,7 @@
   <div class="menu z-50 h-16">
     <div class="container mx-auto h-16 flex items-center justify-between">
       <div class="logo xs:ml-8">
-        <a href="#"><h1 class="cc text-3xl font-thin text-pink-600">aimé.</h1></a>
+        <a href="#"><h1 class="cc text-3xl font-light text-pink-600">aimé.</h1></a>
       </div>
       <div class="btn sm:hidden">
         <button class="hamburger hamburger--arrow-r" type="button" :class="{ 'is-active': isActive }" @click="burger">
