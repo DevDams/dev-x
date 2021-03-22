@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="contact_page">
-      <div class="mt-16 container mx-auto">
+    <div class="contact_page bg-mywhite">
+      <div class="pt-16 container mx-auto">
         <div class="">
-          <h1 class="text-6xl text-mygreen font-semibold mt-32 ml-4">You have a project ?</h1>
+          <h1 class="text-6xl text-myblue font-semibold mt-20 ml-4">You have a project ?</h1>
         </div>
         <div class="w-2/3">
           <p class="ml-4">
@@ -21,7 +21,4 @@ export default {}
 </script>
 
 <style scoped>
-.bg-myblack {
-  width: 700px;
-}
 </style>
