@@ -6,7 +6,7 @@
           <h1 class="text-6xl text-mygreen font-semibold pt-32">You have a project ?</h1>
         </div>
         <div class="flex">
-          <div class="contact_text">
+          <div class="contact_text w-1/2">
             <p class="mt-8 w-1/2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis similique voluptas saepe. Distinctio, error? Vel, ullam dolorum blanditiis eius, est necessitatibus nisi, officia alias qui perspiciatis at. Nihil, provident molestiae!
             </p>
@@ -22,8 +22,24 @@
               Telephone : +225 07 78 81 21 11
             </p>
           </div>
-          <div class="form  w-1/2">
-            <h1>Fill this form</h1>
+          <div class="form w-1/2 bg-mypink flex justify-center items-center">
+            <div class="w-1/2 l-form">
+              <form action="" class="bg-myviolet form rounded-xl px-4 py-8">
+                <div class="form_div">
+                  <input type="text" class="form_input" placeholder=" ">
+                  <label for="" class="form_label">Your name</label>
+                </div>
+                <div class="form_div">
+                  <input type="email" class="form_input" placeholder=" ">
+                  <label for="" class="form_label">Your Email</label>
+                </div>
+                <div class="form_div">
+                  <input type="text" class="form_input" placeholder=" ">
+                  <label for="" class="form_label">Your Message</label>
+                </div>
+                <input type="submit" class="form_button" value="Send it">
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -38,5 +54,9 @@ export default {}
 <style scoped>
 .bg-myblack {
   width: 700px;
+}
+
+.form {
+  height: 500px;
 }
 </style>
