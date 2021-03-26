@@ -11,7 +11,7 @@
               Create awesome interface and web application for customers if one of the thinks
               I like the most in my life. So if you have any idea of project, don't wait too long...
             </p>
-            <a data-scroll href="#" class="flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-40 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen" data-scroll-speed="3">
+            <a data-scroll href="#" class="flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-46 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen" data-scroll-speed="3">
               Let's work
               <span>
                 <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
