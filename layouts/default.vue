@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #e7e7e7;
   color: #000;
   transition: .3s all ease-in-out;
 }
