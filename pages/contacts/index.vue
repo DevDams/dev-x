@@ -1,29 +1,29 @@
 <template>
   <div>
-    <div class="contact_page bg-mywhite mb-32">
-      <div class="mt-16 container mx-auto">
+    <div class="contact_page bg-mywhite mb-32 w-11/12 m-auto">
+      <div class="sm:mt-8 lg:mt-16 container mx-auto">
         <div class="xl:ml-12 2xl:ml-24">
-          <h1 class="contact_title text-6xl text-mygreen font-semibold">You have a project ?</h1>
+          <h1 class="contact_title xs:text-4xl xs:ml-4 sm:text-5xl md:text-6xl text-mygreen font-semibold">You have a project ?</h1>
         </div>
-        <div class="flex md:flex-col lg:flex-row xl:ml-12 2xl:ml-24">
-          <div class="contact_text w-1/2">
-            <p class="mt-8 w-1/2">
+        <div class="flex xs:flex-col xs:w-11/12 xs:m-auto sm:flex-col sm:w-full lg:flex-row xl:ml-12 2xl:ml-24">
+          <div class="contact_text sm:w-full lg:w-1/2">
+            <p class="mt-12 lg:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis similique voluptas saepe. Distinctio, error? Vel, ullam dolorum blanditiis eius, est necessitatibus nisi, officia alias qui perspiciatis at. Nihil, provident molestiae!
             </p>
-            <h3 class="mt-8 text-3xl text-myblack font-semibold">Or find me on social network</h3>
-            <ul class="ml-12">
-              <li class="py-4"><img class="inline -mt-2" src="~/assets/icon/twitter-alt.svg" alt=""> Twitter : <a class="text-mygreen font-medium" href="https://twitter.com/dams9ix">@dams9ix</a></li>
-              <li class="py-4"><img class="inline -mt-2" src="~/assets/icon/instagram-alt.svg" alt=""> Instagram : <a class="text-mygreen font-medium" href="https://www.instagram.com/adam.9ix/">@adam.9ix</a></li>
-              <li class="py-4"><img class="inline -mt-2" src="~/assets/icon/behance.svg" alt=""> Behance : <a class="text-mygreen font-medium" href="https://behance.com/dams9ix">dams9ix</a></li>
+            <h3 class="sm:ml-8 lg:ml-0 mt-8 text-3xl text-myblack font-semibold">Or find me on social network</h3>
+            <ul class="ml-12 network_list">
+              <li class="pt-5"><img class="inline -mt-2" src="~/assets/icon/twitter-alt.svg" alt=""> Twitter : <a class="text-mygreen font-medium" href="https://twitter.com/dams9ix">@dams9ix</a></li>
+              <li class="pt-4"><img class="inline -mt-2" src="~/assets/icon/instagram-alt.svg" alt=""> Instagram : <a class="text-mygreen font-medium" href="https://www.instagram.com/adam.9ix/">@adam.9ix</a></li>
+              <li class="pt-4"><img class="inline -mt-2" src="~/assets/icon/behance.svg" alt=""> Behance : <a class="text-mygreen font-medium" href="https://behance.com/dams9ix">dams9ix</a></li>
             </ul>
-            <h4 class="mt-12 text-2xl text-black font-semibold">Send me an email or call me :)</h4>
-            <p class="mt-4">
+            <h4 class="sm:ml-8 lg:ml-0 mt-12 text-2xl text-black font-semibold">Send me an email or call me :)</h4>
+            <p class="sm:ml-8 lg:ml-0 mt-4">
               Email : ad.aimedesire@gmail.com <br>
               Telephone : +225 07 78 81 21 11
             </p>
           </div>
-          <div class="formm w-1/2 flex justify-center items-center">
-            <div class="w-1/2 l-form">
+          <div class="formm xs:mt-32 sm:w-full sm:mt-32 lg:w-1/2 lg:mt-0 flex justify-center items-center">
+            <div class="xs:w-full sm:-ml-16 md:ml-0 w-1/2 l-form">
               <form action="" class="form">
                 <p class="text-5xl -mt-24 mb-12">✌️</p>
                 <div class="form__div">
@@ -146,5 +146,38 @@ export default {}
 /*Input focus*/
 .form__input:focus{
   border: 2px solid #238c89;
+}
+
+@media (max-width: 639px) {
+  .form {
+    width: 390px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .form {
+    width: 95%;
+    height: 540px;
+    margin: auto;
+  }
+
+  .form__div {
+    height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .network_list {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .form {
+    width: 100%;
+    height: 540px;
+    margin: auto;
+  }
 }
 </style>
