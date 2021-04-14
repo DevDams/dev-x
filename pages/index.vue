@@ -11,14 +11,14 @@
               Create awesome interface and web application for customers if one of the thinks
               I like the most in my life. So if you have any idea of project, don't wait too long...
             </p>
-            <a data-scroll href="#" class="flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-46 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen" data-scroll-speed="3">
+            <nuxt-link data-scroll to="/contacts" class="flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-46 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen" data-scroll-speed="3">
               Let's work
               <span>
                 <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </span>
-            </a>
+            </nuxt-link>
           </div>
           <img datat-scroll class="xs:hidden sm:hidden md:block md:mt-10 lg:mt-5 xl:-mt-10 2xl:-mt-12 w-2/5 -mt-24" src="~/assets/svg/work_man.svg" alt="worker man illustration">
         </div>
