@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="contact_page bg-mywhite h-screen">
+    <div class="contact_page bg-mywhite">
       <div class="mt-16 container mx-auto">
         <div class="">
           <h1 class="text-6xl text-mygreen font-semibold pt-32">You have a project ?</h1>
@@ -52,8 +52,6 @@ export default {}
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-=======
 .bg-myblack {
   width: 700px;
 }
@@ -61,5 +59,4 @@ export default {}
 .form {
   height: 500px;
 }
->>>>>>> 649c95942a152084ffc52d5bb9799e8c551039ce
 </style>
