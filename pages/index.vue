@@ -53,7 +53,72 @@
       <!-- === PROJECT SECTION === -->
       <div data-scroll-section class="project bg-mygreen -mt-2">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide text-6xl text-mywhite pt-8 uppercase font-bold">What i have done</h1>
+          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide text-6xl text-white pt-8 uppercase font-bold">What i have done</h1>
+        </div>
+        <div class="project_box container mx-auto flex justify-around mt-32 z-20">
+          <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" class="project_1 w-1/4 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+            <a href="https://ai-mad-clown.netlify.app/">
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">MAD Clone</h1>
+            </a>
+          </div>
+          <div data-scroll data-scroll-speed="2" class="project_2 w-1/4 mt-16 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+            <a href="https://ai-weather.netlify.app/#/">
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">Wave Weather</h1>
+            </a>
+          </div>
+          <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="project_3 w-1/4 mt-8 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+            <a href="https://qui-zz.netlify.app/">
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">Qui-zz</h1>
+            </a>
+          </div>
+        </div>
+        <div class="wave_background3 z-10">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#238c89" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,240C384,213,480,139,576,138.7C672,139,768,213,864,213.3C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg>
+        </div>
+      </div>
+      <!-- === CONTACTS SECTION === -->
+      <div data-scroll-section class="contact bg-mywhite -mt-4 z-20">
+        <div class="container mx-auto">
+          <h1 data-scroll data-scroll-speed="2" class="tracking-wide text-6xl text-right text-myblue pt-8 uppercase font-bold">Let's get in touch</h1>
+        </div>
+        <div class="container mx-auto mt-32 text-center contact_content">
+          <p class="contact_text w-1/3 mx-auto">
+            Do you have a new challenge for me or do you just want to say hello? Please contact me by email or social media.
+          </p>
+          <div class="contact_email text-center mt-12">
+            <h1 class="text-6xl font-medium">ad.aimedesire@gmail.com</h1>
+          </div>
+          <div class="contact_social mt-12">
+            <ul>
+              <li class="flex w-64">
+                <a href="" class="text-2xl">
+                  LinkedIn
+                </a>
+                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </li>
+              <li class="flex mt-2 bg-mygreen">
+                <a href="" class="text-2xl">Twitter</a>
+                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </li>
+              <li class="flex mt-2">
+                <a href="" class="text-2xl">Instagram</a>
+                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="contact_button">
+            <nuxt-link to="/contacts" class="contact_button_link">
+              Send a message
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -122,6 +187,58 @@ export default {
   z-index: 1;
 }
 
+.project {
+  position: relative;
+  height: 1350px;
+  z-index: 10;
+}
+
+.project_1, .project_2, .project_3 {
+  position: relative;
+  height: 550px;
+  background: linear-gradient(145deg, #259693, #207e7b);
+  box-shadow:  13px 13px 29px #1c716f,
+              -13px -13px 29px #2aa7a3;
+}
+
+.project_1, .project_2, .project_3, h1 {
+  bottom: 10px;
+}
+
+.project_1 {
+  background-image: url(https://global-uploads.webflow.com/5f3cf8cce20a65438a93628a/5f59d3dae314c45f39759041_Drawkit_landing_04_1-compressed-poster-00001.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.project_2 {
+  background-image: url(https://global-uploads.webflow.com/5f3cf8cce20a65438a93628a/5f59d3dae314c45f39759041_Drawkit_landing_04_1-compressed-poster-00001.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.project_3 {
+  background-image: url(https://global-uploads.webflow.com/5f3cf8cce20a65438a93628a/5f59d3dae314c45f39759041_Drawkit_landing_04_1-compressed-poster-00001.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.project .wave_background3 svg {
+  position: absolute;
+  bottom: 0;
+  background-color: #e7e7e7;
+  transition: .3s all ease-in-out;
+  z-index: 1;
+}
+
+.contact {
+  position: relative;
+  height: 1000px;
+}
+
 @media (max-width: 768px) {
   .about {
     height: 1300px;
@@ -132,9 +249,5 @@ export default {
   .about {
     height: 1250px;
   }
-}
-
-.project {
-  height: 850px;
 }
 </style>
