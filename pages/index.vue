@@ -53,7 +53,7 @@
       <!-- === PROJECT SECTION === -->
       <div data-scroll-section class="project bg-mygreen -mt-2">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide xs:text-5xl sm:text-5xl lg:text-6xl text-white pt-8 uppercase font-bold">What i have done</h1>
+          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide xs:text-5xl xs:ml-4  sm:text-5xl lg:text-6xl text-white pt-8 uppercase font-bold">What i have done</h1>
         </div>
         <div class="project_box container xs:flex xs:flex-wrap xs:justify-around sm:flex sm:flex-wrap sm:justify-around lg:flex-nowrap mx-auto flex justify-around mt-32 z-20 ">
           <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" class="project_1 md:mx-2 lg:mx-0 2xl:w-1/4 flex justify-center bg-red-400 rounded-xl border-2 border-white">
@@ -81,14 +81,14 @@
       <!-- === CONTACTS SECTION === -->
       <div data-scroll-section class="contact bg-mywhite -mt-4 z-20">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" class="tracking-wide xs:text-4xl sm:text-5xl lg:text-6xl text-right text-myorange pt-8 uppercase font-bold">Let's get in touch</h1>
+          <h1 data-scroll data-scroll-speed="2" class="tracking-wide xs:text-4xl xs:mr-4 sm:text-5xl lg:text-6xl text-right text-myorange pt-8 uppercase font-bold">Let's get in touch</h1>
         </div>
         <div class="container mx-auto mt-32 text-center contact_content">
           <p data-scroll data-scroll-speed="3" class="contact_text md:w-1/3 mx-auto text-lg">
             Do you have a new challenge for me or do you just want to say hello? Please contact me by email or social media.
           </p>
           <div class="contact_email text-center mt-12">
-            <h1 data-scroll data-scroll-speed="2" class="md:text-4xl lg:text-5xl xl:text-6xl font-medium">
+            <h1 data-scroll data-scroll-speed="2" class="xs:text-xl xs:font-bold md:font-medium sm:text-4xl lg:text-5xl xl:text-6xl">
               <a href="mailto:ad.aimedesire@gmail.com">ad.aimedesire@gmail.com</a>
             </h1>
           </div>
@@ -288,9 +288,33 @@ export default {
   }
 }
 
+@media (max-width: 526px) {
+  .project {
+    height: 2100px;
+  }
+}
+
 @media (max-width: 460px) {
   .about {
     height: 1250px;
+  }
+}
+
+@media (max-width: 425px) {
+  .project {
+    height: 2000px;
+  }
+
+  .project_1, .project_2, .project_3 {
+    width: 320px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 375px) {
+  .project_1, .project_2, .project_3 {
+    width: 85%;
+    height: 450px;
   }
 }
 </style>
