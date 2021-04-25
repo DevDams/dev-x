@@ -11,7 +11,7 @@
               Create awesome interface and web application for customers if one of the thinks
               I like the most in my life. So if you have any idea of project, don't wait too long...
             </p>
-            <nuxt-link data-scroll to="/contacts" class="flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-46 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen" data-scroll-speed="3">
+            <nuxt-link data-scroll to="/contacts" class="corps_link flex xs:-mt-8 xs:w-40 xs:px-2 xs:justify-center sm:-mt-8 lg:-mt-8 xl:w-46 xl:text-lg xl:-mt-10 2xl:-mt-4 w-48 items-center justify-between text-xl text-black py-3 px-5 rounded-2xl bg-myfadegreen hover:bg-myblack hover:text-white" data-scroll-speed="3">
               Let's work
               <span>
                 <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,17 +58,17 @@
         <div class="project_box container mx-auto flex justify-around mt-32 z-20">
           <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" class="project_1 w-1/4 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://ai-mad-clown.netlify.app/">
-              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">MAD Clone</h1>
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">MAD Clone</h1>
             </a>
           </div>
           <div data-scroll data-scroll-speed="2" class="project_2 w-1/4 mt-16 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://ai-weather.netlify.app/#/">
-              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">Wave Weather</h1>
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">Wave Weather</h1>
             </a>
           </div>
           <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="project_3 w-1/4 mt-8 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://qui-zz.netlify.app/">
-              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-xl -ml-32 py-2 w-2/3 mx-auto text-center uppercase font-bold">Qui-zz</h1>
+              <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">Qui-zz</h1>
             </a>
           </div>
         </div>
@@ -81,41 +81,41 @@
       <!-- === CONTACTS SECTION === -->
       <div data-scroll-section class="contact bg-mywhite -mt-4 z-20">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" class="tracking-wide text-6xl text-right text-myblue pt-8 uppercase font-bold">Let's get in touch</h1>
+          <h1 data-scroll data-scroll-speed="2" class="tracking-wide text-6xl text-right text-myorange pt-8 uppercase font-bold">Let's get in touch</h1>
         </div>
         <div class="container mx-auto mt-32 text-center contact_content">
-          <p class="contact_text w-1/3 mx-auto">
+          <p data-scroll data-scroll-speed="3" class="contact_text w-1/3 mx-auto text-lg">
             Do you have a new challenge for me or do you just want to say hello? Please contact me by email or social media.
           </p>
           <div class="contact_email text-center mt-12">
-            <h1 class="text-6xl font-medium">ad.aimedesire@gmail.com</h1>
+            <h1 data-scroll data-scroll-speed="2" class="text-6xl font-medium">
+              <a href="mailto:ad.aimedesire@gmail.com">ad.aimedesire@gmail.com</a>
+            </h1>
           </div>
           <div class="contact_social mt-12">
-            <ul>
-              <li class="flex w-64">
-                <a href="" class="text-2xl">
+            <ul class="w-64 text-center mx-auto">
+              <li data-scroll data-scroll-speed="2" class="flex justify-center w-64">
+                <a href="https://www.linkedin.com/in/adamsaimedesireofficial" class="text-2xl text-myblack">
                   LinkedIn
                 </a>
-                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                <img class="w-6 ml-3" src="~/assets/icon/arrow-s.svg" alt="">
               </li>
-              <li class="flex mt-2 bg-mygreen">
-                <a href="" class="text-2xl">Twitter</a>
-                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+              <li data-scroll data-scroll-speed="2" class="flex justify-center mt-4">
+                <a href="https://twitter.com/dams9ix" class="text-2xl text-myblack">
+                  Twitter
+                </a>
+                <img class="w-6 ml-3" src="~/assets/icon/arrow-s.svg" alt="">
               </li>
-              <li class="flex mt-2">
-                <a href="" class="text-2xl">Instagram</a>
-                <svg width="32px" height="32px" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 12L17 12L13 16M13 8L15 10" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+              <li data-scroll data-scroll-speed="2" class="flex justify-center mt-4">
+                <a href="https://www.instagram.com/adam.9ix/" class="text-2xl text-myblack">
+                  Instagram
+                </a>
+                <img class="w-6 ml-3" src="~/assets/icon/arrow-s.svg" alt="">
               </li>
             </ul>
           </div>
-          <div class="contact_button">
-            <nuxt-link to="/contacts" class="contact_button_link">
+          <div data-scroll data-scroll-speed="2" class="contact_button mt-16">
+            <nuxt-link to="/contacts" class="contact_button_link bg-myorange px-8 py-4 rounded-2xl text-xl text-myblack font-medium hover:bg-myblack hover:text-mywhite">
               Send a message
             </nuxt-link>
           </div>
@@ -162,6 +162,10 @@ export default {
   color: #f2f2f2;
 }
 
+.corps_link:hover svg path {
+  stroke: white;
+}
+
 .wave_background svg {
   position: absolute;
   bottom: 0;
@@ -179,6 +183,11 @@ export default {
   position: relative;
 }
 
+.about .image_profil img {
+  box-shadow:  15px 15px 31px #b1b1b1,
+             -15px -15px 31px #ffffff;
+}
+
 .about .wave_background2 svg {
   position: absolute;
   bottom: 0;
@@ -189,7 +198,7 @@ export default {
 
 .project {
   position: relative;
-  height: 1350px;
+  height: 1250px;
   z-index: 10;
 }
 
@@ -197,8 +206,7 @@ export default {
   position: relative;
   height: 550px;
   background: linear-gradient(145deg, #259693, #207e7b);
-  box-shadow:  13px 13px 29px #1c716f,
-              -13px -13px 29px #2aa7a3;
+  box-shadow:  13px 13px 29px #1c716f;
 }
 
 .project_1, .project_2, .project_3, h1 {
@@ -231,12 +239,16 @@ export default {
   bottom: 0;
   background-color: #e7e7e7;
   transition: .3s all ease-in-out;
-  z-index: 1;
+  z-index: -1;
 }
 
 .contact {
   position: relative;
   height: 1000px;
+}
+
+.contact_social ul li img {
+  transform: rotate(90deg);
 }
 
 @media (max-width: 768px) {
