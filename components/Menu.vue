@@ -13,7 +13,7 @@
           </span>
         </button>
       </div>
-      <div class="menu_link xs:h-screen xs:fixed xs:bg-mypink xs:right-0 xs:w-2/5 menu_items" :class="{ 'active': isHide }">
+      <div class="menu_link xs:h-screen xs:fixed xs:bg-myblack xs:right-0 xs:w-2/5 menu_items" :class="{ 'active': isHide }">
         <div class="xs:h-screen xs:flex xs:items-center xs:justify-center">
           <ul class="text-white">
             <li class="xs:py-6 xs:text-xl sm:inline sm:px-4 md:px-4 lg:px-8"><NuxtLink to="/">Hi !</NuxtLink></li>

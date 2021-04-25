@@ -53,20 +53,20 @@
       <!-- === PROJECT SECTION === -->
       <div data-scroll-section class="project bg-mygreen -mt-2">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide text-6xl text-white pt-8 uppercase font-bold">What i have done</h1>
+          <h1 data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="tracking-wide xs:text-5xl sm:text-5xl lg:text-6xl text-white pt-8 uppercase font-bold">What i have done</h1>
         </div>
-        <div class="project_box container mx-auto flex justify-around mt-32 z-20">
-          <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" class="project_1 w-1/4 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+        <div class="project_box container xs:flex xs:flex-wrap xs:justify-around sm:flex sm:flex-wrap sm:justify-around lg:flex-nowrap mx-auto flex justify-around mt-32 z-20 ">
+          <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" class="project_1 md:mx-2 lg:mx-0 2xl:w-1/4 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://ai-mad-clown.netlify.app/">
               <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">MAD Clone</h1>
             </a>
           </div>
-          <div data-scroll data-scroll-speed="2" class="project_2 w-1/4 mt-16 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+          <div data-scroll data-scroll-speed="2" class="project_2 md:mx-2 lg:mx-0 2xl:w-1/4 mt-16 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://ai-weather.netlify.app/#/">
               <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">Wave Weather</h1>
             </a>
           </div>
-          <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="project_3 w-1/4 mt-8 flex justify-center bg-red-400 rounded-xl border-2 border-white">
+          <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="project_3 xs:mt-16 sm:mt-16 md:mx-2 lg:mx-0 2xl:w-1/4 md:mt-8 flex justify-center bg-red-400 rounded-xl border-2 border-white">
             <a href="https://qui-zz.netlify.app/">
               <h1 class="absolute text-myblack text-xl bg-myfadegreen rounded-lg -ml-32 py-2 w-2/3 mx-auto text-center font-bold hover:bg-myblack hover:text-mywhite">Qui-zz</h1>
             </a>
@@ -81,14 +81,14 @@
       <!-- === CONTACTS SECTION === -->
       <div data-scroll-section class="contact bg-mywhite -mt-4 z-20">
         <div class="container mx-auto">
-          <h1 data-scroll data-scroll-speed="2" class="tracking-wide text-6xl text-right text-myorange pt-8 uppercase font-bold">Let's get in touch</h1>
+          <h1 data-scroll data-scroll-speed="2" class="tracking-wide xs:text-4xl sm:text-5xl lg:text-6xl text-right text-myorange pt-8 uppercase font-bold">Let's get in touch</h1>
         </div>
         <div class="container mx-auto mt-32 text-center contact_content">
-          <p data-scroll data-scroll-speed="3" class="contact_text w-1/3 mx-auto text-lg">
+          <p data-scroll data-scroll-speed="3" class="contact_text md:w-1/3 mx-auto text-lg">
             Do you have a new challenge for me or do you just want to say hello? Please contact me by email or social media.
           </p>
           <div class="contact_email text-center mt-12">
-            <h1 data-scroll data-scroll-speed="2" class="text-6xl font-medium">
+            <h1 data-scroll data-scroll-speed="2" class="md:text-4xl lg:text-5xl xl:text-6xl font-medium">
               <a href="mailto:ad.aimedesire@gmail.com">ad.aimedesire@gmail.com</a>
             </h1>
           </div>
@@ -114,7 +114,7 @@
               </li>
             </ul>
           </div>
-          <div data-scroll data-scroll-speed="2" class="contact_button mt-16">
+          <div data-scroll data-scroll-speed="2" class="contact_button mt-16 -ml-3">
             <nuxt-link to="/contacts" class="contact_button_link bg-myorange px-8 py-4 rounded-2xl text-xl text-myblack font-medium hover:bg-myblack hover:text-mywhite">
               Send a message
             </nuxt-link>
@@ -251,9 +251,40 @@ export default {
   transform: rotate(90deg);
 }
 
+@media (max-width: 1535px) {
+  .project {
+    height: 1050px;
+  }
+
+  .project_1, .project_2, .project_3 {
+    width: 300px;
+    height: 480px;
+  }
+
+  .project_1 a, .project_2 a, .project_3 a {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project {
+    height: 1530px;
+  }
+
+  .project_1, .project_2, .project_3 {
+    width: 350px;
+    height: 480px;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     height: 1300px;
+  }
+
+  .project {
+    height: 2000px;
   }
 }
 
