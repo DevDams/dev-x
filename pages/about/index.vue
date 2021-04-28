@@ -3,6 +3,11 @@
     <div data-scroll-container>
       <div data-scroll-section class="about_landing bg-myblue">
         <h1 class="text-6xl font-bold text-center text-myfadegreen pt-32">WHO AM I</h1>
+        <div class="container about_me">
+          <div class="my_info">
+            <h1></h1>
+          </div>
+        </div>
       </div>
     </div>
   </div>
