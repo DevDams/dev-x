@@ -1,17 +1,48 @@
 <template>
   <div id="target">
+    <!-- ABOUT LANDING SECTION -->
     <div data-scroll-container>
       <div data-scroll-section class="about_landing bg-myblue">
-        <h1 class="text-6xl font-bold text-center text-myfadegreen pt-40">WHO AM I</h1>
-        <div class="about_me container mx-auto mt-12 flex">
-          <div class="my_info w-1/2 p-20">
-            <h1 class="text-myblack text-5xl font-semibold">I'm a human</h1>
-            <p class="text-mywhite">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusantium, fugit iste necessitatibus tempore facilis sequi blanditiis nisi repellat perferendis aliquam? Facilis accusantium quam ratione maxime quia temporibus laborum eum.
-            </p>
+        <h1 class="relative mx-auto text-6xl font-bold text-center text-myfadegreen uppercase pt-32">
+          WHO AM I
+          <span class="underline"></span>
+        </h1>
+        <div class="about_me container mx-auto mt-20 flex justify-center">
+          <div class="about_me__my_info w-1/2 mt-16">
+            <div class="info_1 pr-24 pt-20">
+              <h1 class="text-4xl text-myorange uppercase font-bold">I'm just like you</h1>
+              <p class="text-mywhite font-light mt-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit possimus veniam id, hic consequatur maxime velit harum vitae saepe quis quisquam sunt maiores voluptate incidunt exercitationem ducimus quae? Odit, ipsam.
+              </p>
+            </div>
+            <div class="info_2 mt-16 pl-24">
+              <h1 class="text-4xl text-myorange uppercase font-bold">How everything start</h1>
+              <p class="text-mywhite font-light mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis atque voluptates perspiciatis consectetur dignissimos, fugiat, harum doloremque asperiores dolorum consequuntur earum! Id assumenda expedita minus laborum ratione eligendi voluptate doloribus.
+              </p>
+            </div>
           </div>
-          <div class="my_image w-1/2">
-            <img src="~/assets/svg/reading.svg" alt="">
+          <div class="about_me__my_image w-1/2">
+            <img class="mx-auto" src="~/assets/svg/person3.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- MY BACKGROUND SECTION -->
+      <div data-scroll-section class="my_background container mx-auto">
+        <h1 class="relative text-5xl font-bold text-myblue text-right uppercase pt-32 ml-16">
+          My Background
+          <!-- <span class="underline"></span> -->
+        </h1>
+        <div class="my_background__info container mx-auto flex">
+          <div class="w-1/2">
+            <img src="~/assets/svg/succes.svg" alt="">
+          </div>
+          <div class="my_background__info_text w-1/2">
+            <h3></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus, id voluptatum inventore odio cum in, amet et vitae vero magnam! <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corrupti illum quae soluta facilis doloremque doloribus, assumenda iste minus, repellat cum. Culpa sint suscipit nisi ab reprehenderit quasi nostrum placeat.
+            </p>
           </div>
         </div>
       </div>
@@ -35,7 +66,42 @@ export default {
 
 <style scoped>
 .about_landing {
-  height: 950px;
+  height: 1100px;
+}
+
+.about_landing h1 {
+  width: 500px;
+}
+
+.about_landing h1 span {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 4px;
+  border-radius: 30px;
+  background-color: #d4f1ef;
+  bottom: 5px;
+  left: 180px;
+}
+
+.my_background {
+  height: 1050px;
+}
+
+.my_background h1 span {
+  position: absolute;
+  content: '';
+  width: 170px;
+  height: 4px;
+  border-radius: 30px;
+  background-color: #5874dc;
+  bottom: 5px;
+  left: 0;
+}
+
+.my_background__info img {
+  width: 500px;
+  margin: auto;
 }
 
 .about_me .my_image img {
