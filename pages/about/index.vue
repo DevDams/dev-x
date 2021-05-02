@@ -3,7 +3,7 @@
     <!-- ABOUT LANDING SECTION -->
     <div data-scroll-container>
       <div data-scroll-section class="about_landing bg-myblue">
-        <h1 class="relative mx-auto text-6xl font-bold text-center text-myfadegreen uppercase pt-32">
+        <h1 class="relative mx-auto text-6xl font-bold text-center text-mywhite uppercase pt-32">
           WHO AM I
           <span class="underline"></span>
         </h1>
@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="about_me__my_image w-1/2">
-            <img class="mx-auto" src="~/assets/svg/person3.svg" alt="">
+            <img class="mx-auto" src="~/assets/svg/selfie.svg" alt="">
           </div>
         </div>
       </div>
@@ -33,16 +33,39 @@
           My Background
           <!-- <span class="underline"></span> -->
         </h1>
-        <div class="my_background__info container mx-auto flex">
+        <div class="my_background__info container mx-auto flex justify-center">
           <div class="w-1/2">
             <img src="~/assets/svg/succes.svg" alt="">
           </div>
-          <div class="my_background__info_text w-1/2">
-            <h3></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus, id voluptatum inventore odio cum in, amet et vitae vero magnam! <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corrupti illum quae soluta facilis doloremque doloribus, assumenda iste minus, repellat cum. Culpa sint suscipit nisi ab reprehenderit quasi nostrum placeat.
-            </p>
+          <div class="my_background__info_text w-1/2 mt-20">
+            <div class="background__info_box1">
+              <h3 class="text-3xl font-semibold">Baccalaureat</h3>
+              <span class="date font-semibold text-mygreen ml-5">July 2018</span>
+              <p class="mt-3 ml-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus
+              </p>
+            </div>
+            <div class="background__info_box1 pt-12 mb-12">
+              <h3 class="text-3xl font-semibold">UFR Bioscience</h3>
+              <span class="date font-semibold text-mygreen ml-5">March 2019 - March 2020</span>
+              <p class="mt-3 ml-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus, id voluptatum inventore odio cum in, amet et vitae vero magnam!
+              </p>
+            </div>
+            <div class="background__info_box1 mb-12">
+              <h3 class="text-3xl font-semibold">Self Taught</h3>
+              <span class="date font-semibold text-mygreen ml-5">July 2018 - Today</span>
+              <p class="mt-3 ml-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus, id voluptatum inventore odio cum in, amet et vitae vero magnam!
+              </p>
+            </div>
+            <div class="background__info_box1">
+              <h3 class="text-3xl font-semibold">NAN - Not A Number</h3>
+              <span class="date font-semibold text-mygreen ml-5">January 2021 - Janvier 2022</span>
+              <p class="mt-3 ml-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, libero ipsa earum ratione at obcaecati non doloremque officiis necessitatibus, id voluptatum inventore odio cum in, amet et vitae vero magnam!
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -77,9 +100,9 @@ export default {
   position: absolute;
   content: '';
   width: 150px;
-  height: 4px;
+  height: 3px;
   border-radius: 30px;
-  background-color: #d4f1ef;
+  background-color: #e7e7e7;
   bottom: 5px;
   left: 180px;
 }
